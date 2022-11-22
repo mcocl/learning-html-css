@@ -1,0 +1,11 @@
+section {
+    height: 100vh;
+}
+
+#one {
+    border: 1px solid red;
+}
+
+#two {
+    border: 1px solid blue;
+}
