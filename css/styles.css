@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+  
+p, li {
+    color: green;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* .special {
+    color: orange;
+    font-weight: bold;
+} */
+
+.test span {
+    font-size: 50px;
+}
+
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+h1 + p {
+    color: orange;
+    font-weight: bold;
+}
