@@ -1,0 +1,55 @@
+/* 1. block vs inline */
+/* div {
+    border: 2px solid red;
+    margin-bottom: 100px;
+}
+span {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+} */
+
+
+/* 2. inner sample */
+/* p, 
+ul {
+  border: 2px solid red;
+  padding: .5em;
+}
+
+.block,
+li {
+  border: 2px solid blue;
+  padding: .5em;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.block {
+  display: block;
+} */
+
+
+/* 3. inner sample */
+/* p, 
+ul {
+  border: 2px solid red;
+}
+
+span,
+li {
+  border: 2px solid blue;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+} 
+
+.inline {
+  display: inline;
+} */
