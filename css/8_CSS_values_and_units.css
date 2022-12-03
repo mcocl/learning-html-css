@@ -1,0 +1,25 @@
+.wrapper {
+    font-size: 30px;
+}
+.box {
+    width: 500px;
+    height: 100px;
+    border: 2px solid red;
+}
+.px {
+    font-size: 16px;
+}
+.vw {
+    font-size: 3vw;
+}
+.em {
+    font-size: 50%;
+}
+.rem {
+    font-size: 1rem;
+}
+.p_box {
+    height: 100px;
+    width: 50%;
+    border: 2px solid blue;
+}
