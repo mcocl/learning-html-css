@@ -1,0 +1,46 @@
+/* 2. margin and padding size for the % */
+/* body {
+    width: 500px;
+    height: 400px;
+    padding: 100px;
+}
+.box {
+    border: 5px solid darkblue;
+    width: 50%;
+    height: 50%;
+    margin: 10%;
+    padding: 10%;
+} */
+
+
+/* 3. min 크기 지정 */
+/* .box {
+    border: 5px solid darkblue;
+    min-height: 30px;
+    width: 200px;
+} */
+
+
+/* 4. max 크기 기정 */
+/* .box {
+    width: 200px;
+    border: 2px solid red;
+}
+.width {
+    width: 100%;
+}
+.max {
+    max-width: 100%;
+}
+.minibox {
+    width: 50px;
+    border: 2px solid red;
+} */
+
+/* 5. viewport 사용하기 */
+.box {
+  /* border: 2px solid darkblue; */
+  width: 100vw;
+  height: 100vh;
+  font-size: 10vh;
+}
