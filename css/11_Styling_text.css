@@ -1,0 +1,21 @@
+/* html {
+    font-size: 10px;
+}  */
+.p1 {
+    border: 2px solid blue;
+    /* color: red; */
+    /* font-family: arial; */
+    /* font-family: "Trebuchet MS", Verdana, sans-serif, arial; */
+    /* font-size: 1rem; */
+    /* font-style: oblique; */
+    /* font-weight: bold; */
+    /* text-transform: full-width; */
+    /* text-decoration: underline; */
+    /* text-shadow: 4px 4px 5px red; */
+    /* text-align: justify; */
+    /* line-height: 1.3; */
+}
+.p2 {
+    border: 2px solid blue;
+    text-shadow: 10px 15px 3px red;
+}
