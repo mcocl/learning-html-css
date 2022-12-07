@@ -1,0 +1,48 @@
+/* General styles */
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+h2 {
+    font-size: 2rem;
+}
+ul,
+ol,
+dl,
+p {
+    font-size: 1.5rem;
+}
+li,
+p {
+    line-height: 1.5;
+}
+/* Description list styles */
+/* dd,
+dt {
+    line-height: 1.5;
+}
+dt {
+    font-weight: bold;
+} */
+
+
+/* styles and position */
+/* ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+} */
+
+
+/* custom bullet image */
+ul {
+    /* list-style-image: url("https://raw.githubusercontent.com/mdn/learning-area/1c4bb3deedb1207c10852f1cda2d011c17255e4e/css/styling-text/styling-lists/star.svg"); */
+    padding-left: 2rem;
+    list-style-type: none;
+}
+ul li {
+    padding-left: 2rem;
+    background-image: url("https://raw.githubusercontent.com/mdn/learning-area/1c4bb3deedb1207c10852f1cda2d011c17255e4e/css/styling-text/styling-lists/star.svg");
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+}
