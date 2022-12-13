@@ -1,0 +1,24 @@
+html {
+    font-family: sans-serif;
+}
+div {
+    width: 70%;
+    margin: 100px auto;
+    height: 350px;
+    border: 1px solid black;
+
+    /* flex 실습 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* flex-direction: column; */
+}
+button {
+    /* flex: 1; */
+    width: 100px;
+}
+button:nth-of-type(2) {
+    align-self: flex-end;
+    /* flex: 1; */
+}
