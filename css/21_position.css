@@ -1,0 +1,57 @@
+.box {
+    position: relative;
+    width: 900px;
+    height: 200vh;
+    margin: 0 auto;
+    border: 2px solid red;
+    background-color: blanchedalmond;
+}
+.box1, .box2, .box3, .box4, .box5, .box3_2 {
+    width: 70px;
+    height: 70px;
+}
+.box1 {
+    background-color: red;
+    /* 기준 X */
+    position: static;
+    left: 30px;
+    /* right: ;
+    top: ;
+    bottom: ; */
+}
+.box2 {
+    background-color: orange;
+    /* 내가 기준(박스는 움직이지만 기존 공간은 차지) */
+    position: relative;
+    /* left: 30px; */
+    /* bottom: 30px; */
+    /* right: 30px; */
+    /* top: 120vh; */
+}
+.box3 {
+    background-color: yellow;
+    /* 위치 상(컨테이닝 블록) 부모가 기준 */
+    position: absolute;
+    left: 50px;
+    top: 0;
+    z-index: 50;
+}
+.box3_2 {
+    background-color: violet;
+    position: absolute;
+    left: 100px;
+    top: 0;
+    z-index: 30;
+}
+.box4 {
+    background-color: green;
+    /* 스크롤이 기준 */
+    position: sticky;
+    top: 70px;
+    left: 70px;
+}
+.box5 {
+    background-color: blue;
+    /* 브라우저가 기준 */
+    position: fixed;
+}
