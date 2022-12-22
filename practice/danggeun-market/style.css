@@ -87,3 +87,51 @@ header > .container > .search > button {
     width: 800px;
     height: 685px;
 }
+
+
+/* Section2 */
+.home {
+    height: 95vh;
+    padding: 4.6rem 0;
+}
+.home > .content {
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home > .content > .image {
+    width: 532px;
+    height: 684px;
+}
+.home > .content > .image > img {
+    width: 532px;
+    height: 684px;
+}
+.home > .content > .title > h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 2.4rem;
+}
+.home > .content > .title > p {
+    font-size: 1rem;
+}
+.home > .content > .title > .home-buttons {
+    margin-top: 2rem;
+}
+.home > .content > .title > .home-buttons > a {
+    background-color: #F1F3F5;
+    color: #212529;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 0.9rem 1.6rem;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.home > .content > .title > .home-buttons > a:nth-of-type(2) {
+    margin-left: 1rem;
+}
