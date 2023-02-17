@@ -1,0 +1,21 @@
+/*
+    1. Inline vs Block
+    2. width & height
+    3. background range
+*/
+span {
+    border: 2px solid blue;
+    width: 70px;
+    height: 70px;
+}
+div {
+    border: 2px solid red;
+    width: 100px;
+    height: 70px;
+    /* padding: 30px; */
+}
+div {
+    background-color: yellow;
+    border: 30px solid red;
+    padding: 20px;
+}
